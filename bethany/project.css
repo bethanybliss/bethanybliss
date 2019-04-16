@@ -1,0 +1,116 @@
+div {
+padding: 2%; 
+}
+
+div a {
+text-decoration-line: none;
+}
+
+.nav ul {
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+}
+
+.name {
+font-family: 'Rammetto One', cursive;
+text-transform: capitalize;
+text-align: center;
+font-size: 30;
+}
+
+.header {
+height: 500px;
+background-image: url(images/mainphoto.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.content {
+display: flex;
+}
+
+.links {
+flex: 3;
+text-align: center;
+}
+
+.links h2 {
+font-family: 'Shadows Into Light', cursive;
+text-transform: uppercase;
+}
+
+.links ul {
+list-style-type: none;
+}
+
+.straight {
+height: 315px;
+width: 560px;
+background-image: url(images/hairtools.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+margin-left: auto;
+margin-right: auto;  
+}
+
+.bio {
+align-content: right;
+flex: 1;
+}
+
+.bio h1 {
+text-transform: uppercase;
+font-family: 'Shadows Into Light', cursive;
+}
+
+.content2 {
+display: flex;
+}
+
+.beauty {
+flex: 3;
+text-align: center;
+}
+
+.beauty h2 {
+text-transform: uppercase;
+font-family: 'Shadows Into Light', cursive; 
+}
+
+.content2 ul {
+list-style-type: none;
+}
+
+.night {
+height: 400px;
+background-image: url(images/bathroom.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+.content3 { 
+display: flex;
+}
+
+.fly {
+flex: 3;
+text-align: center;
+}
+
+.fly h2 {
+text-transform: uppercase;
+font-family: 'Shadows Into Light', cursive; 
+}
+
+.group {
+height: 600px;
+background-image: url(images/dubai.jpg.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
